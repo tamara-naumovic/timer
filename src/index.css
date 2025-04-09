@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+.timers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dve kolone */
+  gap: 20px;
+  justify-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timer {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+}
+
+.time-display {
+  font-size: 2.5em;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.presets button,
+.controls button,
+.input-time button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.input-time input {
+  width: 60px;
+  margin: 5px;
+  padding: 5px;
+}
